@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.cdnfonts.com/css/tex-gyre-heros");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+.gallery-label p,
+.image-text h2,
+.image-text p,
+.label p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "TeXGyreHeros";
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.gallery{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 49px;
+}
+
+.gallery-label h1 {
+  line-height: 35px;
+}
+
+.gallery-row {
+  max-height: 253px;
+}
+
+.block {
+  display: table-cell;
+  vertical-align: top;
+  width: 25%;
+  height: 253px;
+  max-height: 253px;
+  background: #f35e59;
+}
+
+.image-text {
+  vertical-align: middle;
+}
+
+.image-text:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.image-photo img {
+  display: block;
+  height: 253px;
+  max-height: 253px;
+  width: 100%;
+  max-width: 100%;
+  -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.image-photo img:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0px;
+  font-size: 0;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+.header {
+  padding-top: 105px;
+  padding-bottom: 128px;
+  background: #de2b24;
+}
+
+.middle {
+  background: #1287bf;
+}
+
+.contact {
+  background: #2a2a2a;
+  padding: 84px 0;
+}
+
+.contact-menu-label h1 {
+  padding-bottom: 30px;
+}
+
+.social-networks ul {
+  margin: 0;
+  list-style: none;
+}
+
+.social-networks li,
+.subscribe-form input[type="submit"] {
+  height: 49px;
+  border: 2px solid #515151;
+  border-radius: 2px;
+  line-height: 45px;
+}
+
+.social-networks li {
+  display: inline-block;
+  width: 49px;
+  margin-right: 20px;
+}
+
+.social-networks li:hover {
+  border-color: #de2b24;
+}
+
+.social-networks a {
+  display: table-cell;
+  width: 45px;
+  padding: 0;
+}
+
+.social-networks img {
+  vertical-align: middle;
+}
+
+#subscribeForm {
+  display: inline-block;
+  width: 100%;
+  margin: 35px 0 0;
+}
+
+.subscribe-form label,
+.subscribe-form input[type="email"],
+.footer p {
+  color: #cecece;
+  font-size: 14px;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.subscribe-form label {
+  display: block;
+  margin: 0 0 35px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 50%;
+  height: 54px;
+  margin-bottom: 27px;
+  padding: 0 0 0 22px;
+  background: #515151;
+  border: 1px solid #515151;
+  color: #cecece;
+}
+
+.subscribe-form input[type="submit"] {
+  width: 12%;
+  min-width: 10%;
+  background: inherit;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  background: #515151;
+  height: 67px;
+  line-height: 67px;
+}
+
+.footer p {
+  margin: 0;
+}
